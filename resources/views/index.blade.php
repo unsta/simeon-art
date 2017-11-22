@@ -132,7 +132,7 @@
 
 	<!--Main Layout-->
 	<main>
-		<div class="container" style="height:1300px;">
+		<div class="container">
 <!-- 			<div class="row mt-5 pt-5">
 				<div class="col text-center">
 					<h2>This Navbar is fixed</h2>
@@ -143,10 +143,10 @@
 			</div> -->
 
 			<!--Section: Products v.5-->
-			<section class="section pb-3">
+			<section class="section">
 
 				<!--Section heading-->
-				<h1 class="section-heading h1 pt-4">Newly Added Products</h1>
+				<h1 class="section-heading h1">Newly Added Products</h1>
 				<!--Section description-->
 				<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
 
@@ -530,6 +530,168 @@
 
 			</section>
 			<!--Section: Products v.5-->
+
+			<hr />
+
+			<!--Section: Products v.4-->
+			<section class="section">
+
+				<!--Section heading-->
+				<h1 class="section-heading h1">Categories</h1>
+
+				<!--Grid row-->
+				<div class="row">
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(28).jpg" class="img-fluid" alt="">
+								<div class="stripe dark">
+									<a>
+										<p>Design <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
+								<div class="stripe light">
+									<a>
+										<p>Paintings <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(31).jpg" class="img-fluid" alt="">
+								<div class="stripe dark">
+									<a>
+										<p>Sculptures <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+					</div>
+					<!--Grid column-->
+				</div>
+				<!--Grid row-->
+
+				<!--Grid row-->
+				<div class="row">
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(28).jpg" class="img-fluid" alt="">
+								<div class="stripe dark">
+									<a>
+										<p>Porcelain <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
+								<div class="stripe light">
+									<a>
+										<p>Glass <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(31).jpg" class="img-fluid" alt="">
+								<div class="stripe dark">
+									<a>
+										<p>Jewelry <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
+								<div class="stripe light">
+									<a>
+										<p>Others <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+				</div>
+				<!--Grid row-->
+			</section>
+			<!--Section: Products v.4-->			
 		</div>
 	</main><!--Container-->
 	<!--Main Layout-->
@@ -585,9 +747,13 @@
 					<h5 class="title">Social Media</h5>
 					<ul>
 						<li>
-							<a href="#!"><i class="fa fa-facebook fa-2x"></i></a>
+							<a href="#!">
+								<i class="fa fa-facebook fa-2x"></i>
+							</a>
 
-							<a href="#!"><i class="fa fa-youtube fa-2x ml-2"></i></a>
+							<a href="#!" class="pl-3">
+								<i class="fa fa-youtube fa-2x"></i>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -599,7 +765,7 @@
 		<!--Copyright-->
 		<div class="footer-copyright">
 			<div class="container-fluid">
-				© 2017 Copyright: <a href="https://mdbootstrap.com"> Simeon-Art.com </a>
+				<span>Simeon-Art.com &copy; Copyright 2017</span>
 			</div>
 		</div>
 		<!--/.Copyright-->
