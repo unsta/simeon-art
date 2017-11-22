@@ -8,7 +8,7 @@
 	<title>Simeon Art</title>
 
 	<!-- <link href="css/app.css" rel="stylesheet" type="text/css"> -->
-	<!-- <link href="css/compiled.min.css" rel="stylesheet" type="text/css"> -->
+	<link href="css/compiled.min.css" rel="stylesheet" type="text/css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 	<!-- Bootstrap core CSS -->
@@ -57,7 +57,7 @@
 					</li>
 
 					<li class="nav-item">
-						<a href="{{ url('/contacts') }}" class="nav-link waves-effect waves-light">Contacts</a>
+						<a class="nav-link waves-effect waves-light">Contacts</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav nav-flex-icons">
@@ -74,65 +74,109 @@
 	</nav>
 	<!--/.Navbar-->
 
-	<!--Carousel Wrapper-->
-	<div id="carousel-example-1" class="carousel slide" data-ride="carousel" data-interval="false">
-		<!--Indicators-->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-1" data-slide-to="1"></li>
-		</ol>
-		<!--/.Indicators-->
-
-		<!--Slides-->
-		<div class="carousel-inner" role="listbox">
-			<!--First slide-->
-			<div class="carousel-item active">
-				<!--Mask-->
-				<div class="view hm-black-light">
-					<div class="full-bg-img flex-center"></div>
-				</div>
-
-				<div class="carousel-caption">
-					<a href="#">
-						<h3 class="h1-responsive">Traditional Art</h3>
-					</a>
-				</div>
-				<!--/.Mask-->
-			</div>
-			<!--/.First slide-->
-
-			<!--Second slide -->
-			<div class="carousel-item">
-				<!--Mask-->
-				<div class="view hm-black-light"></div>
-
-				<div class="carousel-caption">
-					<a href="#">
-						<h3 class="h1-responsive">Design</h3>
-					</a>
-				</div>                
-				<!--/.Mask-->
-			</div>
-			<!--/.Second slide -->
-		</div>
-		<!--/.Slides-->
-
-		<!--Controls-->
-		<a class="carousel-control-prev" href="#carousel-example-1" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carousel-example-1" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-		<!--/.Controls-->
-	</div>
-	<!--/.Carousel Wrapper-->
-
 	<!--Main Layout-->
 	<main>
-		<div class="container" style="height:1300px;">
+		<div class="container">
+			
+		
+<!--Section: Contact v.1-->
+<section class="section pb-5">
+
+	<!--Section heading-->
+	<h2 class="section-heading h1 pt-4">Contact us</h2>
+	<!--Section description-->
+	<p class="section-description pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+
+	<div class="row">
+
+		<!--Grid column-->
+		<div class="col-lg-5 mb-4">
+
+			<!--Form with header-->
+			<div class="card">
+
+				<div class="card-body">
+					<!--Header-->
+					<div class="form-header blue accent-1">
+						<h3><i class="fa fa-envelope"></i> Write to us:</h3>
+					</div>
+
+					<p>We'll write rarely, but only the best content.</p>
+					<br>
+
+					<!--Body-->
+					<div class="md-form">
+						<i class="fa fa-user prefix grey-text"></i>
+						<input type="text" id="form-name" class="form-control">
+						<label for="form-name">Your name</label>
+					</div>
+
+					<div class="md-form">
+						<i class="fa fa-envelope prefix grey-text"></i>
+						<input type="text" id="form-email" class="form-control">
+						<label for="form-email">Your email</label>
+					</div>
+
+					<div class="md-form">
+						<i class="fa fa-tag prefix grey-text"></i>
+						<input type="text" id="form-Subject" class="form-control">
+						<label for="form-Subject">Subject</label>
+					</div>
+
+					<div class="md-form">
+						<i class="fa fa-pencil prefix grey-text"></i>
+						<textarea type="text" id="form-text" class="md-textarea"></textarea>
+						<label for="form-text">Icon Prefix</label>
+					</div>
+
+					<div class="text-center">
+						<button class="btn btn-light-blue">Submit</button>
+					</div>
+
+				</div>
+
+			</div>
+			<!--Form with header-->
+
+		</div>
+		<!--Grid column-->
+
+		<!--Grid column-->
+		<div class="col-lg-7">
+
+			<!--Google map-->
+			<div id="map-container" class="z-depth-1-half map-container" style="height: 400px"></div>
+
+			<br>
+			<!--Buttons-->
+			<div class="row text-center">
+				<div class="col-md-4">
+					<a class="btn-floating blue accent-1"><i class="fa fa-map-marker"></i></a>
+					<p>Sofia, 1700</p>
+					<p>Bulgaria</p>
+				</div>
+
+				<div class="col-md-4">
+					<a class="btn-floating blue accent-1"><i class="fa fa-phone"></i></a>
+					<p>+359 5 98 65 35</p>
+					<p>Mon - Fri, 8:00-22:00</p>
+				</div>
+
+				<div class="col-md-4">
+					<a class="btn-floating blue accent-1"><i class="fa fa-envelope"></i></a>
+					<p>info@simeon-art.com</p>
+					<p>sale@simeon-art.com</p>
+				</div>
+			</div>
+
+		</div>
+	   <!--Grid column-->
+
+	</div>
+
+</section>
+<!--Section: Contact v.1-->
+<!-- 		<div class="container" style="height:1300px;">
 			<div class="row mt-5 pt-5">
 				<div class="col text-center">
 					<h2>This Navbar is fixed</h2>
@@ -141,6 +185,7 @@
 					<p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
 				</div>
 			</div>
+		</div> -->
 		</div>
 	</main>
 	<!--Main Layout-->
@@ -208,7 +253,6 @@
 		<div class="footer-copyright">
 			<div class="container-fluid">
 				© 2017 Copyright: <a href="https://mdbootstrap.com"> Simeon-Art.com </a>
-
 			</div>
 		</div>
 		<!--/.Copyright-->
@@ -222,5 +266,31 @@
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
 	<!-- <script src="js/app.js"></script> -->
 	<script src="js/compiled.min.js"></script>
+	<!-- Google Maps -->
+	<script src="https://maps.google.com/maps/api/js"></script>
+	<script>
+		function init_map() {
+			var var_location = new google.maps.LatLng(40.725118, -73.997699);
+
+			var var_mapoptions = {
+				center: var_location,
+				zoom: 14
+			};
+
+			var var_marker = new google.maps.Marker({
+				position: var_location,
+				map: var_map,
+				title: "Sofia"
+			});
+
+			var var_map = new google.maps.Map(document.getElementById("map-container"),
+				var_mapoptions);
+
+			var_marker.setMap(var_map);
+
+		}
+
+		google.maps.event.addDomListener(window, 'load', init_map);
+	</script>
 </body>
 </html>
