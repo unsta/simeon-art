@@ -8,7 +8,7 @@
 	<title>Simeon Art</title>
 
 	<!-- <link href="css/app.css" rel="stylesheet" type="text/css"> -->
-	<!-- <link href="css/compiled.min.css" rel="stylesheet" type="text/css"> -->
+	<link href="css/compiled.min.css" rel="stylesheet" type="text/css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 	<!-- Bootstrap core CSS -->
@@ -75,7 +75,7 @@
 	<!--/.Navbar-->
 
 	<!--Carousel Wrapper-->
-	<div id="carousel-example-1" class="carousel slide" data-ride="carousel" data-interval="false">
+	<div id="carousel-example-1" class="carousel slide carousel-viewport" data-ride="carousel" data-interval="false">
 		<!--Indicators-->
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
@@ -132,38 +132,591 @@
 
 	<!--Main Layout-->
 	<main>
-		<div class="container" style="height:1300px;">
-			<div class="row mt-5 pt-5">
+		<div class="container">
+<!-- 			<div class="row mt-5 pt-5">
 				<div class="col text-center">
 					<h2>This Navbar is fixed</h2>
 					<h5>It will always stay visible on the top, even when you scroll down</h5>
 					<br>
 					<p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
 				</div>
-			</div>
+			</div> -->
+
+			<!--Section: Products v.5-->
+			<section class="section">
+
+				<!--Section heading-->
+				<h1 class="section-heading h1">Newly Added Products</h1>
+				<!--Section description-->
+				<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+
+				<!--Carousel Wrapper-->
+				<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+					<!--Controls-->
+					<div class="controls-top">
+						<a class="btn-floating primary-color" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+						<a class="btn-floating primary-color" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+					</div>
+					<!--Controls-->
+
+					<!--Indicators-->
+					<ol class="carousel-indicators">
+						<li class="primary-color" data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+						<li class="primary-color" data-target="#multi-item-example" data-slide-to="1"></li>
+						<li class="primary-color" data-target="#multi-item-example" data-slide-to="2"></li>
+					</ol>
+					<!--Indicators-->
+
+					<!--Slides-->
+					<div class="carousel-inner" role="listbox">
+
+						<!--First slide-->
+						<div class="carousel-item active">
+
+							<div class="col-md-4">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(39).jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Shoes</h5></a>
+										<h4 class="card-title"><strong><a href="">Leather boots</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">69$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(22).jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Jeans</h5></a>
+										<h4 class="card-title"><strong><a href="">Slim jeans</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit. Nam incidunt eius est voluptatibus.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">99$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Others/img%20(31).jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Shorts</h5></a>
+										<h4 class="card-title"><strong><a href="">Denim shorts</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">49$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+						</div>
+						<!--First slide-->
+
+						<!--Second slide-->
+						<div class="carousel-item">
+
+							<div class="col-md-4">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(30).jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Accessories</h5></a>
+										<h4 class="card-title"><strong><a href="">Summer hat</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit. Nam incidunt eius est voluptatibus.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">39$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(37).jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Shoes</h5></a>
+										<h4 class="card-title"><strong><a href="">Black heels</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">79$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(31).jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Outerwear</h5></a>
+										<h4 class="card-title"><strong><a href="">Black jacket</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">149$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+						</div>
+						<!--Second slide-->
+
+						<!--Third slide-->
+						<div class="carousel-item">
+
+							<div class="col-md-4">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(38).jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Accessories</h5></a>
+										<h4 class="card-title"><strong><a href="">Leather bag</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">29$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/belt.jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Accessories</h5></a>
+										<h4 class="card-title"><strong><a href="">Leather belt</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">89$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+							<div class="col-md-4 clearfix d-none d-md-block">
+
+								<!--Card-->
+								<div class="card card-cascade narrower">
+
+									<!--Card image-->
+									<div class="view overlay hm-white-slight">
+										<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img%20(57).jpg" class="img-fluid" alt="">
+										<a>
+											<div class="mask"></div>
+										</a>
+									</div>
+									<!--Card image-->
+
+									<!--Card content-->
+									<div class="card-body text-center no-padding">
+										<!--Category & Title-->
+										<a href="" class="text-muted"><h5>Shoes</h5></a>
+										<h4 class="card-title"><strong><a href="">Sneakers</a></strong></h4>
+
+										<!--Description-->
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit. Nam incidunt eius est voluptatibus.
+										</p>
+
+										<!--Card footer-->
+										<div class="card-footer">
+											<span class="left">129$</span>
+										</div>
+
+									</div>
+									<!--Card content-->
+
+								</div>
+								<!--Card-->
+
+							</div>
+
+						</div>
+						<!--Third slide-->
+
+					</div>
+					<!--Slides-->
+
+				</div>
+				<!--Carousel Wrapper-->
+
+			</section>
+			<!--Section: Products v.5-->
+
+			<hr />
+
+			<!--Section: Products v.4-->
+			<section class="section">
+
+				<!--Section heading-->
+				<h1 class="section-heading h1">Categories</h1>
+
+				<!--Grid row-->
+				<div class="row">
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(28).jpg" class="img-fluid" alt="">
+								<div class="stripe dark">
+									<a>
+										<p>Design <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
+								<div class="stripe light">
+									<a>
+										<p>Paintings <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(31).jpg" class="img-fluid" alt="">
+								<div class="stripe dark">
+									<a>
+										<p>Sculptures <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+					</div>
+					<!--Grid column-->
+				</div>
+				<!--Grid row-->
+
+				<!--Grid row-->
+				<div class="row">
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(28).jpg" class="img-fluid" alt="">
+								<div class="stripe dark">
+									<a>
+										<p>Porcelain <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
+								<div class="stripe light">
+									<a>
+										<p>Glass <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(31).jpg" class="img-fluid" alt="">
+								<div class="stripe dark">
+									<a>
+										<p>Jewelry <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-r">
+
+						<!--Collection card-->
+						<div class="card collection-card z-depth-1-half">
+							<!--Card image-->
+							<div class="view  hm-zoom">
+								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
+								<div class="stripe light">
+									<a>
+										<p>Others <i class="fa fa-chevron-right"></i></p>
+									</a>
+								</div>
+							</div>
+							<!--Card image-->
+						</div>
+						<!--Collection card-->
+
+					</div>
+					<!--Grid column-->
+				</div>
+				<!--Grid row-->
+			</section>
+			<!--Section: Products v.4-->			
 		</div>
-	</main>
+	</main><!--Container-->
 	<!--Main Layout-->
 
 	<!--Footer-->
 	<footer class="page-footer center-on-small-only">
 
 		<!--Footer Links-->
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<!--First column-->
-				<div class="col-md-3 offset-md-1">
-					<h5 class="title">ABOUT MATERIAL DESIGN</h5>
-					<p>Material Design (codenamed Quantum Paper) is a design language developed by Google. </p>
-
-					<p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
+				<div class="col-md-3">
+					<h5 class="title">Contacts</h5>
+					<ul>
+						<li>Sofia, 1700, Bulgaria</li>
+						<li>+359 5 62 36 54</li>
+						<li>sales@simeon-art.com</li>
+					</ul>
 				</div>
 				<!--/.First column-->
 
 				<hr class="hidden-md-up">
 
 				<!--Second column-->
-				<div class="col-md-2 offset-md-1">
+				<div class="col-md-3">
 					<h5 class="title">Traditional art</h5>
 					<ul>
 						<li><a href="#!">Drawings</a></li>
@@ -176,7 +729,7 @@
 				<hr class="hidden-md-up">
 
 				<!--Third column-->
-				<div class="col-md-2">
+				<div class="col-md-3">
 					<h5 class="title">Design</h5>
 					<ul>
 						<li><a href="#!">Porcelain</a></li>
@@ -190,13 +743,18 @@
 				<hr class="hidden-md-up">
 
 				<!--Fourth column-->
-				<div class="col-md-2">
-					<h5 class="title">Third column</h5>
+				<div class="col-md-3">
+					<h5 class="title">Social Media</h5>
 					<ul>
-						<li><a href="#!">Link 1</a></li>
-						<li><a href="#!">Link 2</a></li>
-						<li><a href="#!">Link 3</a></li>
-						<li><a href="#!">Link 4</a></li>
+						<li>
+							<a href="#!">
+								<i class="fa fa-facebook fa-2x"></i>
+							</a>
+
+							<a href="#!" class="pl-3">
+								<i class="fa fa-youtube fa-2x"></i>
+							</a>
+						</li>
 					</ul>
 				</div>
 				<!--/.Fourth column-->
@@ -207,8 +765,7 @@
 		<!--Copyright-->
 		<div class="footer-copyright">
 			<div class="container-fluid">
-				© 2017 Copyright: <a href="https://mdbootstrap.com"> Simeon-Art.com </a>
-
+				<span>Simeon-Art.com &copy; Copyright 2017</span>
 			</div>
 		</div>
 		<!--/.Copyright-->

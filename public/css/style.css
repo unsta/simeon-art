@@ -38,29 +38,29 @@ body,
 
 /* Carousel*/
 
-.carousel,
-.carousel-item,
-.active {
+.carousel-viewport.carousel,
+.carousel-viewport .carousel-item,
+.carousel-viewport .active {
     height: 100%;
 }
 
-.carousel-inner {
+.carousel-viewport .carousel-inner {
     height: 100%;
 }
 
-.carousel-item:nth-child(1) {
+.carousel-viewport .carousel-item:nth-child(1) {
     background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.carousel-item:nth-child(2) {
+.carousel-viewport .carousel-item:nth-child(2) {
     background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(41).jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.carousel-item:nth-child(3) {
+.carousel-viewport .carousel-item:nth-child(3) {
     background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(49).jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,21 +73,21 @@ body,
 }
 
 @media (min-width: 776px) {
-    .carousel .view ul li {
+    .carousel-viewport .view ul li {
         display: inline;
     }
-    .carousel .view .full-bg-img ul li .flex-item {
+    .carousel-viewport .view .full-bg-img ul li .flex-item {
         margin-bottom: 1.5rem;
     }
 }
 
 .fa-15x { font-size:1.5em }
 
-.carousel-caption {
+.carousel-viewport .carousel-caption {
     top: 44%;
     right: 40%;
     left: 40%;
     background-color: rgba(0,0,0,.2);
 }
-.carousel-caption a { color: inherit; }
-.carousel-caption a:hover { color: #e6e6e6; }
+.carousel-viewport .carousel-caption a { color: inherit; }
+.carousel-viewport .carousel-caption a:hover { color: #e6e6e6; }
