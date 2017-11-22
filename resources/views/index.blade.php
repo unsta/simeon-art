@@ -147,8 +147,6 @@
 
 				<!--Section heading-->
 				<h1 class="section-heading h1">Newly Added Products</h1>
-				<!--Section description-->
-				<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
 
 				<!--Carousel Wrapper-->
 				<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
@@ -194,10 +192,6 @@
 										<a href="" class="text-muted"><h5>Shoes</h5></a>
 										<h4 class="card-title"><strong><a href="">Leather boots</a></strong></h4>
 
-										<!--Description-->
-										<p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
-										</p>
-
 										<!--Card footer-->
 										<div class="card-footer">
 											<span class="left">69$</span>
@@ -231,10 +225,6 @@
 										<a href="" class="text-muted"><h5>Jeans</h5></a>
 										<h4 class="card-title"><strong><a href="">Slim jeans</a></strong></h4>
 
-										<!--Description-->
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit. Nam incidunt eius est voluptatibus.
-										</p>
-
 										<!--Card footer-->
 										<div class="card-footer">
 											<span class="left">99$</span>
@@ -267,10 +257,6 @@
 										<!--Category & Title-->
 										<a href="" class="text-muted"><h5>Shorts</h5></a>
 										<h4 class="card-title"><strong><a href="">Denim shorts</a></strong></h4>
-
-										<!--Description-->
-										<p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.
-										</p>
 
 										<!--Card footer-->
 										<div class="card-footer">
@@ -311,10 +297,6 @@
 										<a href="" class="text-muted"><h5>Accessories</h5></a>
 										<h4 class="card-title"><strong><a href="">Summer hat</a></strong></h4>
 
-										<!--Description-->
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit. Nam incidunt eius est voluptatibus.
-										</p>
-
 										<!--Card footer-->
 										<div class="card-footer">
 											<span class="left">39$</span>
@@ -348,10 +330,6 @@
 										<a href="" class="text-muted"><h5>Shoes</h5></a>
 										<h4 class="card-title"><strong><a href="">Black heels</a></strong></h4>
 
-										<!--Description-->
-										<p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.
-										</p>
-
 										<!--Card footer-->
 										<div class="card-footer">
 											<span class="left">79$</span>
@@ -384,10 +362,6 @@
 										<!--Category & Title-->
 										<a href="" class="text-muted"><h5>Outerwear</h5></a>
 										<h4 class="card-title"><strong><a href="">Black jacket</a></strong></h4>
-
-										<!--Description-->
-										<p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
-										</p>
 
 										<!--Card footer-->
 										<div class="card-footer">
@@ -428,10 +402,6 @@
 										<a href="" class="text-muted"><h5>Accessories</h5></a>
 										<h4 class="card-title"><strong><a href="">Leather bag</a></strong></h4>
 
-										<!--Description-->
-										<p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.
-										</p>
-
 										<!--Card footer-->
 										<div class="card-footer">
 											<span class="left">29$</span>
@@ -465,10 +435,6 @@
 										<a href="" class="text-muted"><h5>Accessories</h5></a>
 										<h4 class="card-title"><strong><a href="">Leather belt</a></strong></h4>
 
-										<!--Description-->
-										<p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
-										</p>
-
 										<!--Card footer-->
 										<div class="card-footer">
 											<span class="left">89$</span>
@@ -501,10 +467,6 @@
 										<!--Category & Title-->
 										<a href="" class="text-muted"><h5>Shoes</h5></a>
 										<h4 class="card-title"><strong><a href="">Sneakers</a></strong></h4>
-
-										<!--Description-->
-										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing minima veniam elit. Nam incidunt eius est voluptatibus.
-										</p>
 
 										<!--Card footer-->
 										<div class="card-footer">
