@@ -727,7 +727,7 @@
 		<!--Copyright-->
 		<div class="footer-copyright">
 			<div class="container-fluid">
-				<span>Simeon-Art.com &copy; Copyright 2017</span>
+				<span>Simeon-Art.com &copy; Copyright <?php echo date("Y"); ?></span>
 			</div>
 		</div>
 		<!--/.Copyright-->
