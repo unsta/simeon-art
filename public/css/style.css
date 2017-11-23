@@ -4,28 +4,31 @@
 /* Navigation*/
 
 .navbar {
-    background-color: transparent;
+	background: url(images/black_linen.png);
 }
 
 .scrolling-navbar {
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
-
-.top-nav-collapse {
-    background-color: rgba(0, 0, 0, 0.8);
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
 }
 
 footer.page-footer {
-    background-color: #667490;
-    margin-top: 0;
+	background: url(images/black_linen.png);
+	margin-top: 0;
+}
+
+footer.page-footer .footer-copyright {
+	height: 40px;
+	line-height: 40px;
+	color: #000;
+	background: url(images/furley_bg.png);
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #667490;
-    }
+	.navbar {
+		background-color: #667490;
+	}
 }
 
 /* Necessary for full page carousel*/
@@ -33,11 +36,11 @@ footer.page-footer {
 html,
 body,
 .view {
-    height: 100%;
+	height: 100%;
 }
 
 body {
-    background: url(images/furley_bg.png) !important;
+	background: url(images/furley_bg.png) !important;
 }
 
 /* Carousel*/
@@ -45,53 +48,53 @@ body {
 .carousel-viewport.carousel,
 .carousel-viewport .carousel-item,
 .carousel-viewport .active {
-    height: 100%;
+	height: 100%;
 }
 
 .carousel-viewport .carousel-inner {
-    height: 100%;
+	height: 100%;
 }
 
 .carousel-viewport .carousel-item:nth-child(1) {
-    background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .carousel-viewport .carousel-item:nth-child(2) {
-    background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(41).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(41).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .carousel-viewport .carousel-item:nth-child(3) {
-    background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(49).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(49).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /*Caption*/
 
 .flex-center {
-    color: #fff;
+	color: #fff;
 }
 
 @media (min-width: 776px) {
-    .carousel-viewport .view ul li {
-        display: inline;
-    }
-    .carousel-viewport .view .full-bg-img ul li .flex-item {
-        margin-bottom: 1.5rem;
-    }
+	.carousel-viewport .view ul li {
+		display: inline;
+	}
+	.carousel-viewport .view .full-bg-img ul li .flex-item {
+		margin-bottom: 1.5rem;
+	}
 }
 
 .fa-15x { font-size:1.5em }
 
 .carousel-viewport .carousel-caption {
-    top: 44%;
-    right: 40%;
-    left: 40%;
-    background-color: rgba(0,0,0,.2);
+	top: 44%;
+	right: 40%;
+	left: 40%;
+	background-color: rgba(0,0,0,.2);
 }
 .carousel-viewport .carousel-caption a { color: inherit; }
 .carousel-viewport .carousel-caption a:hover { color: #e6e6e6; }

@@ -252,7 +252,7 @@
 		<!--Copyright-->
 		<div class="footer-copyright">
 			<div class="container-fluid">
-				© 2017 Copyright: <a href="https://mdbootstrap.com"> Simeon-Art.com </a>
+				<span>Simeon-Art.com &copy; Copyright <?php echo date("Y"); ?></span>
 			</div>
 		</div>
 		<!--/.Copyright-->
