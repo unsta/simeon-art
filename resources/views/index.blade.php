@@ -7,6 +7,9 @@
 
 	<title>Simeon Art</title>
 
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
+
 	<!-- <link href="css/app.css" rel="stylesheet" type="text/css"> -->
 	<link href="css/compiled.min.css" rel="stylesheet" type="text/css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -62,11 +65,11 @@
 				</ul>
 				<ul class="navbar-nav nav-flex-icons">
 					<li class="nav-item">
-						<a class="nav-link waves-effect waves-light"><i class="fa fa-facebook fa-15x"></i></a>
+						<a href="" target="_blank" class="nav-link waves-effect waves-light"><i class="fa fa-facebook fa-15x"></i></a>
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link waves-effect waves-light"><i class="fa fa-youtube fa-15x"></i></a>
+						<a href="https://www.youtube.com/channel/UCsH7qdS62MQtsm7uhYTboFg/videos" target="_blank" class="nav-link waves-effect waves-light"><i class="fa fa-youtube fa-15x"></i></a>
 					</li>
 				</ul>
 			</div>
@@ -146,26 +149,10 @@
 			<section class="section">
 
 				<!--Section heading-->
-				<h1 class="section-heading h1">Newly Added Products</h1>
+				<h1 class="section-heading h1">New Products</h1>
 
 				<!--Carousel Wrapper-->
 				<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-					<!--Controls-->
-					<div class="controls-top">
-						<a class="btn-floating primary-color" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-						<a class="btn-floating primary-color" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-					</div>
-					<!--Controls-->
-
-					<!--Indicators-->
-					<ol class="carousel-indicators">
-						<li class="primary-color" data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-						<li class="primary-color" data-target="#multi-item-example" data-slide-to="1"></li>
-						<li class="primary-color" data-target="#multi-item-example" data-slide-to="2"></li>
-					</ol>
-					<!--Indicators-->
-
 					<!--Slides-->
 					<div class="carousel-inner" role="listbox">
 
@@ -487,6 +474,12 @@
 					</div>
 					<!--Slides-->
 
+					<!--Controls-->
+					<div class="controls-top">
+						<a class="btn-floating warning-color" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+						<a class="btn-floating warning-color" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+					</div>
+					<!--Controls-->
 				</div>
 				<!--Carousel Wrapper-->
 
