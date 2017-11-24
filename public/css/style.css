@@ -31,8 +31,11 @@ footer.page-footer .footer-copyright {
 	}
 }
 
-/* Necessary for full page carousel*/
+/*.navbar.navbar-dark .navbar-nav .nav-item.active {
+    background-color: rgba(244, 244, 120, 0.5);
+}*/
 
+/* Necessary for full page carousel*/
 html,
 body,
 .view {
@@ -41,6 +44,9 @@ body,
 
 body {
 	background: url(images/furley_bg.png) !important;
+    font-family: 'Prociono', serif;
+    font-size: 17px;
+    letter-spacing: 2px;
 }
 
 /* Carousel*/
@@ -92,9 +98,19 @@ body {
 
 .carousel-viewport .carousel-caption {
 	top: 44%;
-	right: 40%;
-	left: 40%;
+	right: 35%;
+    bottom: 44%;
+	left: 35%;
 	background-color: rgba(0,0,0,.2);
 }
 .carousel-viewport .carousel-caption a { color: inherit; }
 .carousel-viewport .carousel-caption a:hover { color: #e6e6e6; }
+
+.carousel-multi-item {
+    margin-bottom: 40px;
+}
+
+.carousel-multi-item .controls-top {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
