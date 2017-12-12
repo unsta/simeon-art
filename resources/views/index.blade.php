@@ -9,9 +9,13 @@
 @section('content')
 	@include('layouts.sections.products')
 
+{{-- 	<hr />
+
+	@include('layouts.sections.categories') --}}
+
 	<hr />
 
-	@include('layouts.sections.categories')
+	@include('layouts.sections.categories2')
 @endsection
 
 @section('javascript')

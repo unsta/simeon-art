@@ -39,12 +39,12 @@
 				<h5 class="title">Social Media</h5>
 				<ul>
 					<li>
-						<a href="#!">
-							<i class="fa fa-facebook fa-2x"></i>
+						<a href="https://www.facebook.com/simeonart1/" target="_blank">
+							<i class="fa fa-facebook fa-15x"></i>
 						</a>
 
 						<a href="https://www.youtube.com/channel/UCsH7qdS62MQtsm7uhYTboFg/videos" target="_blank" class="pl-3">
-							<i class="fa fa-youtube fa-2x"></i>
+							<i class="fa fa-youtube fa-15x"></i>
 						</a>
 					</li>
 				</ul>
@@ -54,7 +54,7 @@
 
 	<div class="footer-copyright">
 		<div class="container-fluid">
-			<span>Simeon-Art.com &copy; Copyright <?php echo date("Y"); ?></span>
+			<span>&copy; <?php echo date("Y"); ?> Copyright: Simeon-Art.com</span>
 		</div>
 	</div><!--/.Copyright-->
 </footer><!--/.Footer-->

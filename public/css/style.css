@@ -44,9 +44,8 @@ body,
 
 body {
 	background: url(images/furley_bg.png) !important;
-    font-family: 'Prociono', serif;
-    font-size: 17px;
-    letter-spacing: 2px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
 }
 
 /* Carousel*/
@@ -113,4 +112,12 @@ body {
 .carousel-multi-item .controls-top {
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.width-100p {
+	width: 100%;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+	font-size: 20px;
 }

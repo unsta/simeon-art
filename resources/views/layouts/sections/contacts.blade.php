@@ -1,5 +1,5 @@
-<section class="section pb-5">
-	<h2 class="section-heading h1 pt-4">Contact us</h2>
+<section class="section pb-5 pt-6">
+	<h2 class="section-heading h1">Contact us</h2>
 
 	<p class="section-description pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
 

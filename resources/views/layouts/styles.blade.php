@@ -1,5 +1,5 @@
 <!-- Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
 <!-- <link href="css/app.css" rel="stylesheet" type="text/css"> -->
 <link href="css/compiled.min.css" rel="stylesheet" type="text/css">
