@@ -9,17 +9,7 @@
 @section('content')
 	@include('layouts.sections.products')
 
-{{-- 	<hr />
-
-	@include('layouts.sections.categories') --}}
-
 	<hr />
 
-	@include('layouts.sections.categories2')
-@endsection
-
-@section('javascript')
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-	<!-- <script src="js/app.js"></script> -->
-	<script src="js/compiled.min.js"></script>
+	@include('layouts.sections.categories')
 @endsection

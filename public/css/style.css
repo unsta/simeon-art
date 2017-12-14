@@ -1,6 +1,3 @@
-/* TEMPLATE STYLES */
-
-
 /* Navigation*/
 
 .navbar {
@@ -24,16 +21,6 @@ footer.page-footer .footer-copyright {
 	color: #000;
 	background: url(images/furley_bg.png);
 }
-
-@media only screen and (max-width: 768px) {
-	.navbar {
-		background-color: #667490;
-	}
-}
-
-/*.navbar.navbar-dark .navbar-nav .nav-item.active {
-    background-color: rgba(244, 244, 120, 0.5);
-}*/
 
 /* Necessary for full page carousel*/
 html,

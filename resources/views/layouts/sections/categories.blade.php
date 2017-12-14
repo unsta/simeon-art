@@ -1,155 +1,103 @@
 <section class="section">
-	<h1 class="section-heading h1">Categories</h1>
+    <h1 class="section-heading h1">Categories</h1>
 
-	<!--Grid row-->
-	<div class="row">
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-r">
+    <p class="section-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-			<!--Collection card-->
-			<div class="card collection-card z-depth-1-half">
-				<!--Card image-->
-				<div class="view  hm-zoom">
-					<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(28).jpg" class="img-fluid" alt="">
-					<div class="stripe dark">
-						<a>
-							<p>Design <i class="fa fa-chevron-right"></i></p>
-						</a>
-					</div>
-				</div>
-				<!--Card image-->
-			</div>
-			<!--Collection card-->
+    <!--Grid row-->
+    <div class="row">
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="width-100p">
+                        <h3 class="card-title py-3 font-bold"><strong>Drawings</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a class="btn btn-pink btn-rounded"><i class="fa fa-clone left"></i> View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Grid column-->
 
-		</div>
-		<!--Grid column-->
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="width-100p">
+                        <h3 class="card-title py-3 font-bold"><strong>Paintings</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a class="btn btn-pink btn-rounded"><i class="fa fa-clone left"></i> View more</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--Grid column-->
 
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-r">
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="width-100p">
+                        <h3 class="card-title py-3 font-bold"><strong>Sculptures</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a class="btn btn-pink btn-rounded"><i class="fa fa-clone left"></i> View more</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--Grid column-->
 
-			<!--Collection card-->
-			<div class="card collection-card z-depth-1-half">
-				<!--Card image-->
-				<div class="view  hm-zoom">
-					<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
-					<div class="stripe light">
-						<a>
-							<p>Paintings <i class="fa fa-chevron-right"></i></p>
-						</a>
-					</div>
-				</div>
-				<!--Card image-->
-			</div>
-			<!--Collection card-->
+        <!--Grid column-->
+        <div class="col-md-12 mb-r">
+            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg);">
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="width-100p">
+                        <h3 class="card-title py-3 font-bold"><strong>Others</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, fugiat, laboriosam!</p>
+                        <a class="btn btn-secondary btn-rounded"><i class="fa fa-clone left"></i> View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Grid column-->
 
-		</div>
-		<!--Grid column-->
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="width-100p">
+                        <h3 class="card-title py-3 font-bold"><strong>Porcelain</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a class="btn btn-warning btn-rounded"><i class="fa fa-clone left"></i> View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Grid column-->
 
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-r">
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="width-100p">
+                        <h3 class="card-title py-3 font-bold"><strong>Glass</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a class="btn btn-warning btn-rounded"><i class="fa fa-clone left"></i> View more</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--Grid column-->
 
-			<!--Collection card-->
-			<div class="card collection-card z-depth-1-half">
-				<!--Card image-->
-				<div class="view  hm-zoom">
-					<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(31).jpg" class="img-fluid" alt="">
-					<div class="stripe dark">
-						<a>
-							<p>Sculptures <i class="fa fa-chevron-right"></i></p>
-						</a>
-					</div>
-				</div>
-				<!--Card image-->
-			</div>
-			<!--Collection card-->
-		</div>
-		<!--Grid column-->
-	</div>
-	<!--Grid row-->
-
-	<!--Grid row-->
-	<div class="row">
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-r">
-
-			<!--Collection card-->
-			<div class="card collection-card z-depth-1-half">
-				<!--Card image-->
-				<div class="view  hm-zoom">
-					<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(28).jpg" class="img-fluid" alt="">
-					<div class="stripe dark">
-						<a>
-							<p>Porcelain <i class="fa fa-chevron-right"></i></p>
-						</a>
-					</div>
-				</div>
-				<!--Card image-->
-			</div>
-			<!--Collection card-->
-
-		</div>
-		<!--Grid column-->
-
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-r">
-
-			<!--Collection card-->
-			<div class="card collection-card z-depth-1-half">
-				<!--Card image-->
-				<div class="view  hm-zoom">
-					<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
-					<div class="stripe light">
-						<a>
-							<p>Glass <i class="fa fa-chevron-right"></i></p>
-						</a>
-					</div>
-				</div>
-				<!--Card image-->
-			</div>
-			<!--Collection card-->
-
-		</div>
-		<!--Grid column-->
-
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-r">
-			<!--Collection card-->
-			<div class="card collection-card z-depth-1-half">
-				<!--Card image-->
-				<div class="view  hm-zoom">
-					<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(31).jpg" class="img-fluid" alt="">
-					<div class="stripe dark">
-						<a>
-							<p>Jewelry <i class="fa fa-chevron-right"></i></p>
-						</a>
-					</div>
-				</div>
-				<!--Card image-->
-			</div>
-			<!--Collection card-->
-		</div>
-		<!--Grid column-->
-
-		<!--Grid column-->
-		<div class="col-lg-3 col-md-6 mb-r">
-
-			<!--Collection card-->
-			<div class="card collection-card z-depth-1-half">
-				<!--Card image-->
-				<div class="view  hm-zoom">
-					<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(26).jpg" class="img-fluid" alt="">
-					<div class="stripe light">
-						<a>
-							<p>Others <i class="fa fa-chevron-right"></i></p>
-						</a>
-					</div>
-				</div>
-				<!--Card image-->
-			</div>
-			<!--Collection card-->
-
-		</div>
-		<!--Grid column-->
-	</div>
-	<!--Grid row-->
-</section> <!--Section: Categories -->
+        <!--Grid column-->
+        <div class="col-md-4 mb-r">
+            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="width-100p">
+                        <h3 class="card-title py-3 font-bold"><strong>Jewelry</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a class="btn btn-warning btn-rounded"><i class="fa fa-clone left"></i> View more</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--Grid column-->
+    </div><!--Grid row-->
+</section>

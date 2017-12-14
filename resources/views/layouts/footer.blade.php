@@ -1,7 +1,7 @@
 <footer class="page-footer center-on-small-only">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<h5 class="title">Contacts</h5>
 				<ul>
 					<li>Sofia, 1700, Bulgaria</li>
@@ -12,7 +12,7 @@
 
 			<hr class="hidden-md-up">
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<h5 class="title">Traditional art</h5>
 				<ul>
 					<li><a href="#!">Drawings</a></li>
@@ -23,7 +23,7 @@
 
 			<hr class="hidden-md-up">
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<h5 class="title">Design</h5>
 				<ul>
 					<li><a href="#!">Porcelain</a></li>
@@ -35,7 +35,7 @@
 
 			<hr class="hidden-md-up">
 
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<h5 class="title">Social Media</h5>
 				<ul>
 					<li>
