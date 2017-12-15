@@ -12,14 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+	return view('index');
 });
 
 Route::get('/contacts', function () {
-    return view('contacts');
+	return view('contacts');
+});
+
+Route::get('/products', function () {
+	return view('products');
 });
 
 Route::get('/welcome', function () {
-    return view('welcome');
+	return view('welcome');
 });
 

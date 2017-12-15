@@ -19,9 +19,9 @@
 						<a class="nav-link dropdown-toggle waves-effect waves-light" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Traditional art</a>
 
 						<div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-							<a class="dropdown-item" href="#">Drawings</a>
-							<a class="dropdown-item" href="#">Paintings</a>
-							<a class="dropdown-item" href="#">Sculptures</a>
+							<a href="{{ url('/products') }}" class="dropdown-item" href="#">Drawings</a>
+							<a href="{{ url('/products') }}" class="dropdown-item" href="#">Paintings</a>
+							<a href="{{ url('/products') }}" class="dropdown-item" href="#">Sculptures</a>
 						</div>
 					</li>
 
@@ -29,10 +29,10 @@
 						<a class="nav-link dropdown-toggle waves-effect waves-light" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
 
 						<div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-							<a class="dropdown-item" href="#">Porcelain</a>
-							<a class="dropdown-item" href="#">Glass</a>
-							<a class="dropdown-item" href="#">Jewelry</a>
-							<a class="dropdown-item" href="#">Others</a>
+							<a href="{{ url('/products') }}" class="dropdown-item" href="#">Porcelain</a>
+							<a href="{{ url('/products') }}" class="dropdown-item" href="#">Glass</a>
+							<a href="{{ url('/products') }}" class="dropdown-item" href="#">Jewelry</a>
+							<a href="{{ url('/products') }}" class="dropdown-item" href="#">Others</a>
 						</div>
 					</li>
 
