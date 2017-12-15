@@ -3,7 +3,7 @@
 @section('title', 'Contacts')
 
 @section('content')
-	@include('layouts.sections.contacts')
+	@include('layouts.contacts.contacts')
 @endsection
 
 @section('javascript')
