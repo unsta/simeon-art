@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('carousel')
-	@include('layouts.carousel')
+	@include('layouts.sections.carousel')
 @endsection
 
 @section('content')

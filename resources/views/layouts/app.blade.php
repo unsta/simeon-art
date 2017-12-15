@@ -7,9 +7,7 @@
 
 	<title>@yield('title') - Simeon Art</title>
 
-	{{-- TODO: Download fonts locally | Combine compiled and style css files--}}
-	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" type="text/css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	{{-- TODO: Combine compiled and style css files--}}
 	<link href="css/compiled.min.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
