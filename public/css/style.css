@@ -1,52 +1,8 @@
-/* TEMPLATE STYLES */
-
-
-/* Navigation*/
-
-.navbar {
-	background: url(images/black_linen.png);
-}
-
-.scrolling-navbar {
-	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-	transition: background .5s ease-in-out, padding .5s ease-in-out;
-}
-
-footer.page-footer {
-	background: url(images/black_linen.png);
-	margin-top: 0;
-}
-
-footer.page-footer .footer-copyright {
-	height: 40px;
-	line-height: 40px;
-	color: #000;
-	background: url(images/furley_bg.png);
-}
-
-@media only screen and (max-width: 768px) {
-	.navbar {
-		background-color: #667490;
-	}
-}
-
-/*.navbar.navbar-dark .navbar-nav .nav-item.active {
-    background-color: rgba(244, 244, 120, 0.5);
-}*/
-
 /* Necessary for full page carousel*/
 html,
 body,
 .view {
 	height: 100%;
-}
-
-body {
-	background: url(images/furley_bg.png) !important;
-    font-family: 'Prociono', serif;
-    font-size: 17px;
-    letter-spacing: 2px;
 }
 
 /* Carousel*/
@@ -80,7 +36,6 @@ body {
 }
 
 /*Caption*/
-
 .flex-center {
 	color: #fff;
 }
@@ -92,25 +47,4 @@ body {
 	.carousel-viewport .view .full-bg-img ul li .flex-item {
 		margin-bottom: 1.5rem;
 	}
-}
-
-.fa-15x { font-size:1.5em }
-
-.carousel-viewport .carousel-caption {
-	top: 44%;
-	right: 35%;
-    bottom: 44%;
-	left: 35%;
-	background-color: rgba(0,0,0,.2);
-}
-.carousel-viewport .carousel-caption a { color: inherit; }
-.carousel-viewport .carousel-caption a:hover { color: #e6e6e6; }
-
-.carousel-multi-item {
-    margin-bottom: 40px;
-}
-
-.carousel-multi-item .controls-top {
-    margin-top: 20px;
-    margin-bottom: 0;
 }
