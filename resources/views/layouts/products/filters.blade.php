@@ -1,29 +1,28 @@
-<section class="section pb-5 pt-5">
+<section class="section pt-5">
 	<form>
 		<div class="row">
-			<div class="col-lg-6 col-md-6 sm-12">
+			<div class="col-lg-4 col-md-4 sm-12">
 				<div class="md-form">
 					<select class="mdb-select">
-						<option value="" disabled selected>Choose a category</option>
+						<option value="" disabled selected>Select a category</option>
 						<option value="traditional-art">Tradiditional Art</option>
 						<option value="design">Design</option>
 					</select>
 				</div>
 			</div>
 
-			<div class="col-lg-6 col-md-6 sm-12">
-				<div class="md-form form-group">
+			<div class="col-lg-4 col-md-4 sm-12">
+				<div class="md-form">
 					<select class="mdb-select">
-						<option value="" disabled selected>Choose a product</option>
-						<option value="1">...</option>
-						<option value="2">...</option>
+						<option value="" disabled selected>Select a product</option>
+						<option value="1">Porcelain</option>
+						<option value="2">Glass</option>
+						<option value="3">Jewelry</option>
 					</select>
 				</div>
 			</div>
-		</div><!--/.row-->
 
-		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-4 col-md-4 sm-12">
 				<div class="md-form">
 					<input type="text" id="search" class="form-control">
 					<label for="search" class="">Search</label>

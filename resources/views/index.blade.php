@@ -7,9 +7,7 @@
 @endsection
 
 @section('content')
-	@include('layouts.home.products')
-
-	<hr />
+	@include('layouts.home.new_products')
 
 	@include('layouts.home.categories')
 @endsection

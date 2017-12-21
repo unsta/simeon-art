@@ -29,7 +29,6 @@
 					<li><a href="#!">Porcelain</a></li>
 					<li><a href="#!">Glass</a></li>
 					<li><a href="#!">Jewelry</a></li>
-					<li><a href="#!">Others</a></li>
 				</ul>
 			</div>
 

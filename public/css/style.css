@@ -48,3 +48,29 @@ body,
 		margin-bottom: 1.5rem;
 	}
 }
+
+.badge {
+	padding: .26em .4em;
+	vertical-align: bottom;
+}
+
+.badge-pill {
+	padding-right: .6em;
+	padding-left: .6em;
+	border-radius: 0;
+}
+
+main {
+	margin-top: 3rem;
+}
+
+section > h1 {
+	margin-bottom: 3rem;
+}
+
+section ~ section {
+	margin-top: 3rem;
+	padding-top: 2rem;
+	border: 0;
+	border-top: 1px solid rgba(0,0,0,.1);
+}

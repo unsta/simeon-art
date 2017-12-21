@@ -5,9 +5,7 @@
 @section('content')
 	@include('layouts.products.filters')
 
-	<hr />
-
-	@include('layouts.home.categories')
+	@include('layouts.products.products')
 @endsection
 
 @section('javascript')
